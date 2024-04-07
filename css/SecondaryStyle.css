@@ -1,0 +1,29 @@
+.main-recipes{
+  height: 125vh;
+  margin-right: 3rem;
+  margin-left: 3rem;
+
+  
+}
+.recipe-box{
+  margin: 50px, 50px, 50px, 50px;
+  
+}
+head-text{
+  color: #fff;
+  font-family: pobeda-bold;
+  font-size: 50px;
+  text-align: center;
+
+  background-color: rgb(255, 64, 0, .8);;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+main-text{
+  
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
