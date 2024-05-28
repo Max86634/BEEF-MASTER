@@ -1,0 +1,63 @@
+@font-face {font-family: Abel; src: url(../fonts/Prompt-Medium.ttf)}
+
+
+.main-recipes{
+  height: 100%;
+  overflow: hidden;
+  
+  
+  
+  
+  /*  */
+  background-image: url('../img/background-billboard.png');
+  background-size: cover;
+  background-attachment: fixed; /* Это позволит фону оставаться на месте при прокрутке */
+  background-position: center;
+  background-color: #0000009d ;
+  z-index: 0;
+  
+}
+.recipe-box{
+  margin-right: 3rem;
+  margin-left: 3rem;
+  /* margin: 50px, 50px, 50px, 50px; */
+  align-items: center;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-style: dashed;
+  border-width: 8px;
+  border-color: var(--brend_color)  ;
+  
+}
+head-text{
+  padding-top: 50px;
+  color: #fff;
+  font-family: pobeda-bold;
+  font-size: 50px;
+  text-align: center;
+  
+
+  
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+main-text{
+  
+  color: #fff;
+  font-size: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.main-text{
+  
+  color: #fff;
+  font-size: 21px;
+  margin-left: 35px;
+  margin-right: 10px;
+  font-family:'Courier New', Courier, monospace;
+  line-height: 55px;
+}
